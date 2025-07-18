@@ -1,0 +1,22 @@
+JobBot/
+├── backend/
+│   ├── main.py
+│   ├── db.py
+│   ├── models.py
+│   ├── openai_utils.py
+│   ├── requirements.txt
+│   ├── .env
+│   └── Dockerfile
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── package.json
+│   ├── tailwind.config.js
+│   └── Dockerfile
+├── bot/
+│   └── apply_bot.py
+├── docker-compose.yml
+└── README.md
